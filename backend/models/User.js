@@ -1,4 +1,3 @@
-// available in documentation of mongoose
 const mongoose = require("mongoose");
 const {Schema} = mongoose;
 
@@ -23,5 +22,4 @@ const UserSchema = new Schema({
 },
 });
 
-// syntax to export the schemas
 module.exports = mongoose.model('User',UserSchema);
